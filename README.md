@@ -38,6 +38,13 @@ Für den **PVMonitor-Display** werden folgende externe Software-Bibliotheken ben
 * https://github.com/bblanchon/ArduinoJson
 * https://github.com/adafruit/Adafruit-ST7735-Library
 
+Im Sketch müssen zwei Konfigurationsparameter gesetzt werden:
+
+![Configuration](/docs/Configuration.png)
+
+In Zeile 22 muss in der URL `http://<IP-Adresse>/status` die korrekte IP-Adresse des **PVMonitor** angegeben werden
+und in Zeile 23 muss die Kapazität des Akkuspeichers in Wattstunden angegeben werden.
+
 ## Copyright
 **PVMonitor-Display** is written by Andreas Trappmann.
 It is published under the MIT license, check LICENSE for more information.
